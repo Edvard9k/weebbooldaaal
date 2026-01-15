@@ -3,42 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Órarend/by Edvard</title>
-    <link rel="icon" type="image/x-icon" href="img/favikon.png">
+     <title>Órarend:by Edvard</title>
+     <link rel="icon" type="image/x-icon" href="img/favikon.png">
+    <link rel="stylesheet" href="style.css">
     <style>
-        body{
+         body{
             background-image: url(img/bregrund.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
             background-attachment: fixed;
         }
-        table,th,td {
+        h1 {
+            text-align: center;
+        }
+
+        table, th, td {
             border: 1px solid black;
-            
+            border-collapse: collapse;
+            text-align: center;
+            padding: 8px;
+        }
+
+        tr:hover {
+            background-color: rgb(21, 255, 0);
         }
     </style>
+    <title>Órarend</title>
 </head>
 <body>
-    <nav>
+<nav>
         <a href="index.html">Hómpédzs</a> |
         <a href="keplink.html">Képlink/alma</a> |
         <a href="listak.html">Listák</a> |
         <a href="evszakok.html">Évszakok</a> |
         <a href="orarend.html">Órarend</a> |
         <a href="div.html">Div feladat</a> |
-     </nav>
-     <table>
+    </nav>
+    <h1>Órarend</h1>
+    <table>
         <thead>
             <tr>
                 <th>Óraszám</th>
                 <th>Időpont</th>
-                <th>Héfő</th>
+                <th>Hétfő</th>
                 <th>Kedd</th>
                 <th>Szerda</th>
                 <th>Csütörtök</th>
                 <th>Péntek</th>
             </tr>
+        </thead>
         <tbody>
             <tr>
                 <td>1.</td>
@@ -46,62 +60,62 @@
                 <td>Osztályfőnöki</td>
                 <td></td>
                 <td>Honvédelem</td>
-                <td>Matematika</td>
+                <td>Matek</td>
                 <td></td>
             </tr>
             <tr>
                 <td>2.</td>
-                <td>8:55-9:40</td>
+                <td>08:55-09:40</td>
                 <td>Angol</td>
                 <td>Komplex</td>
-                <td>Nyelvtan</td>
+                <td>Irodalom</td>
                 <td>Töri</td>
-                <td>Dig.Kult</td>
+                <td>Digit. kultúra</td>
             </tr>
             <tr>
                 <td>3.</td>
-                <td>9:50-10:35</td>
-                <td>Prog.alap</td>
+                <td>09:50-10:35</td>
+                <td>Prog. alap</td>
                 <td>Nyelvtan</td>
-                <td>Matematika</td>
+                <td>Matek</td>
                 <td>Komplex</td>
-                <td>Dig.Kult</td>
+                <td>Digit. kultúra</td>
             </tr>
             <tr>
                 <td>4.</td>
                 <td>10:45-11:30</td>
-                <td>Prog.alap</td>
+                <td>Prog. alap</td>
                 <td>Töri</td>
                 <td>Komplex</td>
-                <td>Ikt</td>
+                <td>IKT</td>
                 <td>Matek</td>
             </tr>
             <tr>
                 <td>5.</td>
                 <td>11:40-12:25</td>
                 <td>Matek</td>
-                <td>Ikt</td>
+                <td>IKT</td>
                 <td>Tesi</td>
-                <td>Ital</td>
+                <td>ITAL</td>
                 <td>Angol</td>
             </tr>
             <tr>
                 <td>6.</td>
                 <td>12:45-13:30</td>
-                <td>Magyar</td>
+                <td>Irodalom</td>
                 <td>Angol</td>
-                <td>Történelem</td>
-                <td>Ital</td>
+                <td>Töri</td>
+                <td>ITAL</td>
                 <td>Angol</td>
             </tr>
             <tr>
                 <td>7.</td>
                 <td>13:35-14:20</td>
-                <td>Magyar</td>
-                <td>Testnevelés</td>
+                <td>Nyelvtan</td>
+                <td>Tesi</td>
                 <td>Angol</td>
-                <td>Ital</td>
-                <td>Testnevelés</td>
+                <td>ITAL</td>
+                <td>Tesi</td>
             </tr>
             <tr>
                 <td>8.</td>
@@ -110,10 +124,9 @@
                 <td></td>
                 <td></td>
                 <td></td>
-                <td>Testnevelé</td>
+                <td>Tesi</td>
             </tr>
         </tbody>
-        </thead>
-     </table>
+    </table>
 </body>
 </html>
